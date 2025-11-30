@@ -3,7 +3,7 @@ using Discord;
 
 public class DiscordPresence : MonoBehaviour
 {
-    public long clientId = 1444670811943342293;
+    public long clientId = 1234567890123456789;
 
     private Discord.Discord discord;
     private long startTimestamp;
@@ -52,13 +52,13 @@ public class DiscordPresence : MonoBehaviour
 
             var activity = new Activity
             {
-                Details = "Jugando a The Shooter",
-                State = "EDisfrutando del juego multijugador",
+                Details = "detailsText",
+                State = "stateText",
                 Timestamps = { Start = startTimestamp },
                 Assets =
                 {
-                    LargeImage = "logo_1024x1024", // nombre del asset SIN .png
-                    LargeText = "The Shooter"
+                    LargeImage = "photoLarge", // nombre del asset SIN .png
+                    LargeText = "textLarge"
                 }
             };
 

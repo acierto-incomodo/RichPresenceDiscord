@@ -4,21 +4,20 @@ using Discord;
 public class DiscordPresence : MonoBehaviour
 {
     [Header("Discord Settings")]
-    public long clientId = 1444670811943342293; // Tu Client ID
+    public long clientId = 1234567890123456789; // Tu Client ID
     public bool enableRichPresence = true; // Para activar/desactivar todo
 
     [Header("Large Image Settings")]
-    public string largeImage = "logo_1024x1024"; // Nombre del asset grande (sin .png)
-    public string largeText = "The Shooter";     // Texto al pasar cursor
+    public string largeImage = "photoLarge"; // Nombre del asset grande (sin .png)
+    public string largeText = "textLarge";     // Texto al pasar cursor
 
     [Header("Small Image Settings")]
-    public string smallImage = "";   // Nombre del asset pequeño (opcional)
-    public string smallText = "";    // Texto al pasar cursor del pequeño
+    public string smallImage = "photoSmall";   // Nombre del asset pequeño (opcional)
+    public string smallText = "textSmall";    // Texto al pasar cursor del pequeño
 
     [Header("Gameplay Info")]
-    public string details = "Jugando The Shooter"; // Texto de estado
-    public string state = "En partida";           // Subtexto opcional
-
+    public string details = "detailsText"; // Texto de estado
+    public string state = "stateText";           // Subtexto opcional
     private Discord.Discord discord;
     private long startTimestamp;
     private bool discordEnabled = true;

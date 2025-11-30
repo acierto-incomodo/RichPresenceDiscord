@@ -93,3 +93,5 @@
 |Small Text|Texto al pasar el cursor sobre la imagen pequeña (opcional)|
 |Details|Texto principal que se muestra en Discord|
 |State|Subtexto que se muestra en Discord|
+---
+By StormGamesStudios
