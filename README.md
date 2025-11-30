@@ -46,6 +46,8 @@
 |Details|Main text shown in Discord|
 |State|Subtext shown in Discord|
 
+Official documentation of DiscordGame SDK by Discord: https://discord.com/developers/docs/developer-tools/game-sdk
+Used SDK: [Discord Game SDK v3.2.1](https://dl-game-sdk.discordapp.net/3.2.1/discord_game_sdk.zip)
 
 
 ----------
@@ -93,5 +95,11 @@
 |Small Text|Texto al pasar el cursor sobre la imagen pequeña (opcional)|
 |Details|Texto principal que se muestra en Discord|
 |State|Subtexto que se muestra en Discord|
+
+---
+
+Documentación oficial de DiscordGame SDK por Discord: https://discord.com/developers/docs/developer-tools/game-sdk
+SDK utilizado: [Discord Game SDK v3.2.1](https://dl-game-sdk.discordapp.net/3.2.1/discord_game_sdk.zip)
+
 ---
 By StormGamesStudios
